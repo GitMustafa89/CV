@@ -77,7 +77,7 @@ The prediction system is designed to categorize new resumes into job categories.
     8. Streamlit Web Application
 The project now includes a Streamlit-based web application for resume screening. This web application provides a user-friendly interface for uploading resumes and obtaining predictions about job categories.
 
-    8.1 Streamlit Implementation
+    8.1 Streamlit Implementationn
 
 The Streamlit application is implemented using the Streamlit library. Users can upload resumes, and the application processes them using the trained model to predict the job category. The predicted category is then displayed to the user.
     8.2 Usage
