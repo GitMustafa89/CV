@@ -23,7 +23,13 @@ jobs:
           python-version: '3.9'
 
      
-        
+      - name: Upload artifact for deployment jobs
+        uses: actions/upload-artifact@v3
+        with:
+          name: python-app
+          path: |
+            release.zip
+            !venv/
     
 
   deploy:
