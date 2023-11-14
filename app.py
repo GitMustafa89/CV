@@ -2,6 +2,9 @@ import streamlit as st #streamlit for making website
 import pickle #for loading datasets
 import re #regular expression data cleaning
 import nltk
+import os
+
+port = int(os.environ.get('PORT', 8000))
 
 nltk.download('punkt')
 nltk.download('stopwords')
