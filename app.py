@@ -76,20 +76,7 @@ def main():
 
 #python_main
 if __name__ == "__main__":
-     st.title("My Streamlit App")
-
-    # Your Streamlit app content goes here
-
-    # Health check endpoint
-    if st.url_route.path == "health":
-        health_status = get_health_status()
-        st.json(health_status)
-
-    # Run Streamlit app on the specified port
-    st.markdown(f"Running on port {port}")
-    st.markdown(f"[Open Streamlit app](http://localhost:{port})")
-    st.run_server(port=port)
-
+     main()
 
 
 
