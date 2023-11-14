@@ -76,7 +76,7 @@ def main():
 
 #python_main
 if __name__ == "__main__":
-    app.run(debug=True, port=8080, use_reloder=False)
+    main()
 
 
 
